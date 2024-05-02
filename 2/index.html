@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Área de um Retângulo</title>
 </head>
 <body>
-<!--Chame seu script aqui--> 
+<h1>Calculadora de Área de um Retângulo</h1>
+<form id="retanguloForm">
+    <label for="base">Base do Retângulo:</label>
+    <input type="number" id="base" required step="0.01">
+    <br>
+    <label for="altura">Altura do Retângulo:</label>
+    <input type="number" id="altura" required step="0.01">
+    <br>
+    <button type="submit">Calcular Área</button>
+</form>
+<div id="resultado"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
